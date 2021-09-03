@@ -7,7 +7,7 @@
 ```javascript
 
 const printNumbers = (a,b,c, ...args) => {
-console.log(args[0]);
+console.log(args[1]);
 }
 printNumbers(1,2,3,4,5);//4
 
